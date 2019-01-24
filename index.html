@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>First task</title>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="snake">
+        <div x="500" y="400" r="0" dir="tp" style="transform: translate(500px, 400px);"  class="snake_head"></div>
+        <div x="500" y="405" r="0" dir="tp" style="transform: translate(500px, 405px);"  class="snake_item"></div>
+        <div x="500" y="410" r="0" dir="tp" style="transform: translate(500px, 410px);"  class="snake_item"></div>
+        <div x="500" y="415" r="0" dir="tp" style="transform: translate(500px, 415px);"  class="snake_item"></div>
+        <div x="500" y="420" r="0" dir="tp" style="transform: translate(500px, 420px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+       <!--  <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="455" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="460" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="465" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="470" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="475" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="480" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="485" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="425" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="430" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="435" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="440" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="445" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div>
+        <div x="500" y="450" r="0" dir="tp" style="transform: translate(500px, 425px);"  class="snake_item"></div> -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </div>
+</body>
+
+</html>
